@@ -3,6 +3,6 @@ Rails.application.routes.draw do
   get 'home/about'
   get 'home/faq'
   get 'home/hiddenstyles'
-  get '/home/contact'
+  get 'home/contact'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
