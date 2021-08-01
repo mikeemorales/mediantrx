@@ -13,3 +13,16 @@
  *= require_tree .
  *= require_self
  */
+
+
+ button[type="button"] {
+    background-color: white;
+    color: #3fca86;
+    list-style: none;
+    border-radius: 5px;
+    border: 2px solid;
+ }
+
+ ul {
+     list-style-type: none;
+ }
