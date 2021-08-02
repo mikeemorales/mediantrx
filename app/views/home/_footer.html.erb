@@ -1,14 +1,22 @@
-<ul class="nav justify-content-center static-bottom" style="background-color: #3fca86; height: 10vh;">
-  <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">Active</a>
+<div style="background-color: #3fca86;">
+<ul class="nav justify-content-center static-bottom pt-5 pb-5" style="background-color: #3fca86;">
+  <li class="nav-item" style="color:white;">
+    <%= link_to 'Home', root_path, class:"nav-link" %>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
+    <%= link_to 'About', home_about_path, class:"nav-link" %>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
+    <%= link_to 'Contact', home_contact_path, class:"nav-link" %>
   </li>
   <li class="nav-item">
-    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    <%= link_to 'FAQ', home_faq_path, class:"nav-link" %>
   </li>
 </ul>
+
+
+<div class="container pb-5" style="text-align:center; color: white;">
+  <p>Copyright ©2021 MediantRX. All Rights Reserved.</p>
+</div>
+
+</div>
