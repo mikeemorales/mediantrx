@@ -14,4 +14,10 @@ class HomeController < ApplicationController
   def contact
   end
 
+  def technology
+  end
+
+  def products
+  end
+
 end
