@@ -6,5 +6,7 @@ Rails.application.routes.draw do
   get 'home/contact'
   get 'home/technology'
   get 'home/products'
+  get 'home/covid19'
+  get 'home/scientificproof'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

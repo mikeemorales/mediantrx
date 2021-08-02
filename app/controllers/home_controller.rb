@@ -20,4 +20,10 @@ class HomeController < ApplicationController
   def products
   end
 
+  def covid19
+  end
+
+  def scientificproof
+  end
+
 end
