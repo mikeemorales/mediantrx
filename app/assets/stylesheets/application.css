@@ -15,12 +15,11 @@
  */
 
 
- button[type="button"] {
+ input[type=button] {
     background-color: #3fca86;
     color: white;
-    list-style: none;
-    border-radius: 6px;
     border: none;
+    border-radius: 3px;
  }
 
  .alert-link {
@@ -32,11 +31,18 @@
     color: white;
  }
 
+ .dropdown-item:hover {
+    background-color: #e3fcef;
+ }
 
  /* MEDIA QUERIES */
 
  @media screen and (max-width: 500px) {
     .open-business {
+       display: none;
+    }
+
+    .nasa-photo {
        display: none;
     }
  }

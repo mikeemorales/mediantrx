@@ -1,5 +1,5 @@
-<nav class="navbar navbar-expand-lg navbar-light">
-  <div class="container-fluid pb-3">
+<nav class="navbar navbar-expand-lg navbar-light pb-4 pt-3">
+  <div class="container-fluid">
 
     <!--button logo top left-->
     <%= link_to '', root_path, class:'navbar-brand' %>
@@ -14,7 +14,7 @@
           <%= link_to 'HOME', root_path, class:'nav-link' %>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">TECHNOLOGY</a>
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">TECHNOLOGY</a>
           <ul class="dropdown-menu">
             <%= link_to "Technology", home_technology_path, class:'dropdown-item' %>
             <%= link_to "Covid-19", home_covid19_path, class:'dropdown-item' %>
@@ -31,7 +31,7 @@
           <%= link_to 'FAQ', home_faq_path, class:'nav-link' %>
         </li>
         <li class="nav-item">
-          <%= link_to '<button type="button">Learn More</button>'.html_safe, home_contact_path, class:'nav-link' %>
+          <%= link_to '<input type="button" value="Learn More"></input>'.html_safe, home_contact_path, class:'nav-link' %>
         </li>
       </ul>
       
