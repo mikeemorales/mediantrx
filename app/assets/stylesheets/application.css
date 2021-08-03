@@ -35,6 +35,10 @@
     background-color: #e3fcef;
  }
 
+.sticky-top {
+   background-color: white;
+}
+
  /* MEDIA QUERIES */
 
  @media screen and (max-width: 500px) {
