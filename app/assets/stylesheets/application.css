@@ -60,6 +60,15 @@
    text-align: center;
 }
 
+.footer-link {
+   text-decoration: none;
+   color: white;
+}
+
+ul {
+   list-style-type: none;
+}
+
  /* MEDIA QUERIES */
 
  @media screen and (max-width: 500px) {

@@ -1,35 +1,37 @@
-<div class="sticky-bottom" style="background-color: #3fca86;">
-<div class="col">
-  <ul class="nav justify-content-center pt-5 pb-3" style="background-color: #3fca86;">
-    <li class="nav-item" style="color:white;">
-      <%= link_to 'Home', root_path, class:"nav-link" %>
-    </li>
-    <li class="nav-item" style="color:white;">
-      <%= link_to 'Technology', home_technology_path, class:"nav-link" %>
-    </li>
-    <li class="nav-item">
-      <%= link_to 'About', home_about_path, class:"nav-link" %>
-    </li>
-    <li class="nav-item">
-      <%= link_to 'Contact', home_contact_path, class:"nav-link" %>
-    </li>
-    <li class="nav-item">
-      <%= link_to 'FAQ', home_faq_path, class:"nav-link" %>
-    </li>
-  </ul>
+<div class="container-fluid" style="background-color: #3fca86;">
+  <div class="row align-items-center pb-5 pt-5" style="text-align: center;">
 
-  <div class="container pb-3" style="text-align:center; color: white;">
-  <p>Made in the U.S.A <%= image_tag 'us-flag-icon.png', class:'shadow' %> </p>
+
+    <div class="col">
+      <ul>
+        <li><%= link_to 'Home', root_path, class:'footer-link' %></li>
+        <li><%= link_to 'Technology', home_technology_path, class:'footer-link' %></li>
+        <li><%= link_to 'Covid-19', home_covid19_path, class:'footer-link' %></li>
+        <li><%= link_to 'Scientific Proof', home_scientificproof_path, class:'footer-link' %></li>
+        <li><%= link_to 'About', home_about_path, class:'footer-link' %></li>
+        <li><%= link_to 'Contact', home_contact_path, class:'footer-link' %></li>
+      </ul>
+    </div>
+    <div class="col">
+      <p style="color: white;">
+        Made in the USA <%= image_tag 'us-flag-icon.png', class:'shadow' %>
+      </p>
+      <p class="fs-6" style="color: white;">
+        A joint venture with <b>Apollo3 Energies</b> - a <b>Vollara</b> distribution partner.
+      </p>
+    </div>
+    <div class="col" style="color: white;">
+      <p>
+        info@mediantRX.com
+      </p>
+      <p>
+        1-(800)-633-0853
+      </p>
+      <p>16475 Beach Blvd. Suite 319
+      <br> Westminster, CA 92683
+      </p>
+    </div>
+
+
   </div>
-
-  <div class="container pb-5" style="text-align:center; color: white;">
-    <p>Copyright ©2021 MediantRX. All Rights Reserved.</p>
-  </div>
-</div>
-
-<div class="col">
-  <p>info@mediantRX.com</p>
-  <p>1-(800)-633-0853</p>
-</div>
-
 </div>
