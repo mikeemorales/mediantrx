@@ -39,6 +39,27 @@
    background-color: white;
 }
 
+.product-dimension {
+   height: 30vh;
+   width: 30vw;
+}
+
+.landing-99 {
+   height: 30vh;
+   width: 25vw;
+}
+
+.active-seal {
+   height: 25vh;
+   width: 22vw;
+}
+
+.ap-logo {
+   height: 5vh;
+   width: 20vh;
+   text-align: center;
+}
+
  /* MEDIA QUERIES */
 
  @media screen and (max-width: 500px) {
@@ -49,4 +70,9 @@
     .nasa-photo {
        display: none;
     }
+
+    .product-dimension {
+      height: 30vh;
+      width: 60vw;
+   }
  }
