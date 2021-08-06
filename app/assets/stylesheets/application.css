@@ -14,7 +14,6 @@
  *= require_self
  */
 
-
  input[type=button] {
     background-color: #3fca86;
     color: white;
@@ -74,6 +73,16 @@
    width: 25vh;
 }
 
+.fda-landing {
+   height: 5vh;
+   width: 12vh;
+}
+
+.nasa-landing {
+   height: 5vh;
+   width: 12vh;
+}
+
  /* MEDIA QUERIES */
 
  @media screen and (max-width: 500px) {
@@ -97,5 +106,9 @@
    .covid-chart {
       height: 40vh;
       width: 80vw;
+   }
+
+   .landing-99 {
+      display: none;
    }
  }
