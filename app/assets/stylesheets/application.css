@@ -89,6 +89,34 @@
 }
 
 
+
+/* SCIENTIFIC PROOF LOGOS */
+
+.sp-a-logo {
+   height: 7vh;
+   width: 15vw;
+}
+
+.sp-mri-logo {
+   height: 7vh;
+   width: 15vw;
+}
+
+.sp-utmb-logo {
+   height: 7vh;
+   width: 15vw;
+}
+
+.sp-eh-logo {
+   height: 10vh;
+   width: 10vw;
+}
+
+.sp-cleveland-logo {
+   height: 7vh;
+   width: 15vw;
+}
+
  /* MEDIA QUERIES */
 
  @media screen and (max-width: 500px) {
@@ -116,5 +144,32 @@
 
    .landing-99 {
       display: none;
+   }
+
+   /* SCIENTIFIC PROOF LOGOS - INSIDE MEDIA QUERIES */
+
+   .sp-a-logo {
+      height: 10vh;
+      width: 50vw;
+   }
+
+   .sp-mri-logo {
+      height: 10vh;
+      width: 50vw;
+   }
+
+   .sp-utmb-logo {
+      height: 10vh;
+      width: 50vw;
+   }
+
+   .sp-eh-logo {
+      height: 30vh;
+      width: 30vw;
+   }
+
+   .sp-cleveland-logo {
+      height: 10vh;
+      width: 50vw;
    }
  }
