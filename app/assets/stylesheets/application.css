@@ -83,6 +83,12 @@
    width: 12vh;
 }
 
+.fda-cert-modal-body {
+   height: 80vh;
+   width: 50vw;
+}
+
+
  /* MEDIA QUERIES */
 
  @media screen and (max-width: 500px) {

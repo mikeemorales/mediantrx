@@ -24,19 +24,37 @@
     <p class="fs-6">ActivePure does not replace the need to follow CDC guidance and should be used as a complementary technology.</p>
   </div>
 
-
+  <!--FDA modal-->
   <div class="col" style="text-align: center;">
+    <button type="button" class="btn fda-modal" data-bs-toggle="modal" data-bs-target="#exampleModal">
     <%= image_tag 'fda-logo-01.png', class:'fda-landing' %>
     <p><h4>An FDA Cleared Device</h4></p>
+    </button>
   </div>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      <%= image_tag 'fda-cert-01.png', class:'fda-cert-modal-body' %>
+      </div>
+    </div>
+  </div>
+
+
+  <!--NASA modal-->
   <div class="col" style="text-align: center;">
-    <%= image_tag 'nasa-logo-02.png', class:'nasa-landing' %>
+    <%= link_to home_technology_path do %>
+      <%= image_tag 'nasa-logo-02.png', class:'nasa-landing' %>
+    <% end %>
     <p><h4>Nasa Developed Technology</h4></p>
   </div>
+
+  <!--Next modal-->
   <div class="col" style="text-align: center;">
     <h1><i class="bi bi-clock-fill" style="color: #7bcfb8"></i></h1>
     <p><h4>Works in real time, 24/7</h4></p>
   </div>
+  <!--Next modal-->
   <div class="col" style="text-align: center;">
     <h1><i class="bi bi-stars" style="color: #7bcfb8;"></i></h1>
     <p><h4>Disinfects surfaces and air</h4></p>
