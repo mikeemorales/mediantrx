@@ -88,6 +88,16 @@
    width: 50vw;
 }
 
+.ct-1-product {
+   height: 8vh;
+   width: 8vw;
+}
+
+.ct-1-approved-icon {
+   height: 7vh;
+   width: 7vw;
+}
+
 .ct-3-product {
    height: 30vh;
    width: 30vw;
