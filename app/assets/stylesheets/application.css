@@ -45,7 +45,12 @@
 
 .landing-99 {
    height: 30vh;
-   width: 25vw;
+   width: 30vw;
+}
+
+.s1-99 {
+   height: 8vh;
+   width: 7vw;
 }
 
 .active-seal {
@@ -89,8 +94,8 @@
 }
 
 .ct-1-product {
-   height: 8vh;
-   width: 8vw;
+   height: 7vh;
+   width: 15vw;
 }
 
 .ct-1-approved-icon {
@@ -99,8 +104,8 @@
 }
 
 .ct-3-product {
-   height: 30vh;
-   width: 30vw;
+   height: 25vh;
+   width: 40vw;
 }
 
 
@@ -251,5 +256,9 @@
    .landing-99 {
       height: 20vh;
       width: 15vw;
+   }
+   .ct-3-product {
+      height: 40vh;
+      width: 40vw;
    }
 }
