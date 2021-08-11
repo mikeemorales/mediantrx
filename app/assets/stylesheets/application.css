@@ -104,6 +104,40 @@
 }
 
 
+/* SAFETY PAGE */
+.safety-s2-seal{
+   height: 20vh;
+   width: 20vw;
+}
+.safety-s2-p1 {
+   height: 20vh;
+   width: 20vw;
+}
+.safety-s2-p2 {
+   height: 20vh;
+   width: 20vw;
+}
+.safety-s2-p3 {
+   height: 20vh;
+   width: 20vw;
+}
+.safetypage-p2 {
+   height: 30vh;
+   width: 40vw;
+}
+.safetypage-p4 {
+   height: 20vh;
+   width: 30vw;
+}
+.safetypage-p5 {
+   height: 35vh;
+   width: 40vw;
+}
+.safetypage-p6 {
+   height: 25vh;
+   width: 35vw;
+}
+
 /* SCIENTIFIC PROOF LOGOS */
 
 .sp-a-logo {
@@ -160,6 +194,7 @@
       display: none;
    }
 
+
    /* SCIENTIFIC PROOF LOGOS - INSIDE MEDIA QUERIES */
 
    .sp-a-logo {
@@ -187,3 +222,30 @@
       width: 50vw;
    }
  }
+
+
+ @media screen and (min-width: 1920px) {
+   .safety-s2-seal{
+      height: 10vh;
+      width: 10vw;
+   }
+   .safety-s2-p1 {
+      height: 10vh;
+      width: 10vw;
+   }
+   .safety-s2-p2 {
+      height: 10vh;
+      width: 10vw;
+   }
+   .safety-s2-p3 {
+      height: 10vh;
+      width: 10vw;
+   }
+   .safetypage-p2 {
+      height: 30vh;
+      width: 40vw;
+   }
+   .safetypage-s2-container {
+      width: 75vw;
+   }
+}
