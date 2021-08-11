@@ -10,5 +10,6 @@ Rails.application.routes.draw do
   get 'home/scientificproof'
   get 'home/safety'
   get 'home/testresults'
+  get 'home/proof'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

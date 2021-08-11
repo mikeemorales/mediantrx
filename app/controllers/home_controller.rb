@@ -32,4 +32,7 @@ class HomeController < ApplicationController
   def testresults
   end
 
+  def proof
+  end
+
 end
