@@ -26,4 +26,7 @@ class HomeController < ApplicationController
   def scientificproof
   end
 
+  def safety
+  end
+
 end
