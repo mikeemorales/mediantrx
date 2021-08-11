@@ -23,9 +23,6 @@ class HomeController < ApplicationController
   def covid19
   end
 
-  def scientificproof
-  end
-
   def safety
   end
 

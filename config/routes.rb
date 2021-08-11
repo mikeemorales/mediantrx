@@ -7,7 +7,6 @@ Rails.application.routes.draw do
   get 'home/technology'
   get 'home/products'
   get 'home/covid19'
-  get 'home/scientificproof'
   get 'home/safety'
   get 'home/testresults'
   get 'home/proof'
