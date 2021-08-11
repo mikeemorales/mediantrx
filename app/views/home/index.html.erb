@@ -1,5 +1,6 @@
 <!-- Header image with button-->
-<div class="p-5 text-center bg-image shadow-lg" style="background: url(<%= asset_path 'cv-hero-image.jpg' %>);">
+<div class="p-5 text-center bg-image shadow-lg" style="background: url(<%= asset_path 'cv-hero-image.jpg' %>); 
+                                                        background-repeat: no-repeat; background-size: cover;">
   <div class="container pt-4 pb-4 w-75">
     <div class="d-flex justify-content-center align-items-center h-100">
     
@@ -21,7 +22,6 @@
 <!--Content section 1-->
 <div class="container w-75">
 <div class="row align-items-center">
-
   <div class="pb-5 pt-5" style="text-align: center;">
       <p><h1>The Only Technology Available in Products Proven to Reduce over 99.9% of the Virus that Causes COVID-19 
       on Both Surfaces and In the Air.</h1></p>
@@ -32,10 +32,8 @@
   <div class="col" style="text-align: center;">
     <button type="button" class="btn fda-modal" data-bs-toggle="modal" data-bs-target="#exampleModal">
     <%= image_tag 'fda-logo-01.png', class:'fda-landing' %>
-    <p><h4>An FDA Cleared Device</h4></p>
     </button>
   </div>
-
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -44,26 +42,40 @@
     </div>
   </div>
 
-
   <div class="col" style="text-align: center;">
     <%= link_to home_technology_path do %>
       <%= image_tag 'nasa-logo-02.png', class:'nasa-landing' %>
     <% end %>
-    <p><h4>NASA Developed Technology</h4></p>
   </div>
 
   <div class="col" style="text-align: center;">
     <%= link_to home_covid19_path do %>
-      <%= image_tag 'activepure-logo.jpg', class:'ct-1-product' %>
+      <%= image_tag 'activepure-logo.jpg', class:'active-landing' %>
     <% end %>
-    <p><h4>Works ACTIVELY In Air and Surfaces</h4></p>
   </div>
 
   <div class="col" style="text-align: center;">
     <%= link_to home_safety_path do %>
-      <%= image_tag 'percent-01.png', class:'s1-99' %>
+      <%= image_tag 'percent-01.png', class:'percent-landing' %>
     <% end %>
-    <p><h4>TESTED and PROVEN</h4></p>
+  </div>
+
+  <div class="row align-items-center;">
+      <div class="col" style="text-align: center;">
+        <p><h4>An FDA Cleared Device</h4></p>
+      </div>
+
+      <div class="col" style="text-align: center;">
+        <p><h4>NASA Developed Technology</h4></p>
+      </div>
+
+      <div class="col" style="text-align: center;">
+        <p><h4>Works ACTIVELY In Air and Surfaces</h4></p>
+      </div>
+
+      <div class="col" style="text-align: center;">
+        <p><h4>TESTED and PROVEN</h4></p>
+      </div>
   </div>
 
 </div>
@@ -88,7 +100,8 @@
 <div class="row align-items-center" style="text-align: center;">
 
   <h4>Introducing</h4>
-  <br><h1>The Active Surface Pro</h1>
+  <br><h1>The Air & Surface PRO</h1>
+  <br><h5>Powered by ActivePure Technology</h5>
 
 </div>
 </div>
@@ -115,7 +128,7 @@
     </div>
 
     <div class="col" style="text-align:center;">
-      <%= image_tag 'active-product-5.jpg', class:'landing-99' %>
+      <%= image_tag 'active-product-5.jpg', class:'landing-product' %>
     </div>
   
 </div>

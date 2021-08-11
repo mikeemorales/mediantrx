@@ -38,19 +38,19 @@
    background-color: white;
 }
 
+.hero-image-index {
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
 .product-dimension {
    height: 30vh;
    width: 30vw;
 }
 
-.landing-99 {
-   height: 30vh;
-   width: 30vw;
-}
-
-.s1-99 {
-   height: 8vh;
-   width: 7vw;
+.landing-product {
+   height: 100%;
+   width: 100%;
 }
 
 .active-seal {
@@ -88,14 +88,19 @@
    width: 12vh;
 }
 
-.fda-cert-modal-body {
-   height: 80vh;
-   width: 50vw;
+.percent-landing {
+   height: 10vh;
+   width: 10vw;
 }
 
-.ct-1-product {
+.active-landing {
    height: 7vh;
    width: 15vw;
+}
+
+.fda-cert-modal-body {
+   height: 100%;
+   width: 100%;
 }
 
 .ct-1-approved-icon {
@@ -198,6 +203,15 @@
    .landing-99 {
       display: none;
    }
+   .percent-landing {
+      height: 10vh;
+      width: 18vw;
+   }
+   
+   .active-landing {
+      height: 7vh;
+      width: 30vw;
+   }
 
 
    /* SCIENTIFIC PROOF LOGOS - INSIDE MEDIA QUERIES */
@@ -253,12 +267,90 @@
    .safetypage-s2-container {
       width: 75vw;
    }
-   .landing-99 {
-      height: 20vh;
-      width: 15vw;
+   .landing-produt {
+      height: 100%;
+      width: 100%;
    }
    .ct-3-product {
       height: 40vh;
       width: 40vw;
+   }
+
+   /*landing page - section one with four logos "fda, nasa, activepure, and 99percentage*/
+   .fda-landing {
+      height: 5vh;
+      width: 12vh;
+   }
+   
+   .nasa-landing {
+      height: 5vh;
+      width: 12vh;
+   }
+   
+   .percent-landing {
+      height: 10vh;
+      width: 8vw;
+   }
+   
+   .active-landing {
+      height: 6vh;
+      width: 14vw;
+   }
+
+   /*Safety page images*/
+   .safety-s2-seal{
+      height: 15vh;
+      width: 12vw;
+   }
+   .safety-s2-p1 {
+      height: 15vh;
+      width: 12vw;
+   }
+   .safety-s2-p2 {
+      height: 15vh;
+      width: 15vw;
+   }
+   .safety-s2-p3 {
+      height: 15vh;
+      width: 12vw;
+   }
+   .safetypage-p2 {
+      height: 40vh;
+      width: 40vw;
+   }
+   .safetypage-p4 {
+      height: 30vh;
+      width: 35vw;
+   }
+   .safetypage-p5 {
+      height: 40vh;
+      width: 40vw;
+   }
+   .safetypage-p6 {
+      height: 35vh;
+      width: 35vw;
+   }
+   
+}
+
+@media screen and (min-width: 2200px) {
+   .fda-landing {
+      height: 5vh;
+      width: 12vh;
+   }
+   
+   .nasa-landing {
+      height: 5vh;
+      width: 12vh;
+   }
+   
+   .percent-landing {
+      height: 12vh;
+      width: 8vw;
+   }
+   
+   .active-landing {
+      height: 6vh;
+      width: 12vw;
    }
 }
