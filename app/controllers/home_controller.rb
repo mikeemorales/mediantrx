@@ -29,4 +29,7 @@ class HomeController < ApplicationController
   def safety
   end
 
+  def testresults
+  end
+
 end

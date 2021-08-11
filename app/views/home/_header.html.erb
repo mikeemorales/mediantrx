@@ -20,8 +20,18 @@
         <li class="nav-item">
           <%= link_to 'COVID-19', home_covid19_path, class:'nav-link' %>
         </li>
-        <li class="nav-item">
-          <%= link_to 'SCIENTIFIC PROOF', home_scientificproof_path, class:'nav-link' %>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            SCIENTIFIC PROOF
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li>
+            <%= link_to 'SCIENTIFIC PROOF', home_scientificproof_path, class:'nav-link' %>
+            </li>
+            <li>
+            <%= link_to 'TEST RESULTS', home_scientificproof_path, class:'nav-link' %>
+            </li>
+          </ul>
         </li>
         <li class="nav-item">
           <%= link_to 'SAFETY', home_safety_path, class:'nav-link' %>
