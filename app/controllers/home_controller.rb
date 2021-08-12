@@ -32,4 +32,7 @@ class HomeController < ApplicationController
   def proof
   end
 
+  def discountprogram
+  end
+
 end
