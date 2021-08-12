@@ -1,19 +1,18 @@
 <!-- Header image with button-->
-<div class="p-5 text-center bg-image shadow-lg" style="background: url(<%= asset_path 'cv-hero-image.jpg' %>); 
-                                                        background-repeat: no-repeat; background-size: cover;">
+<div class="p-5 text-center bg-image shadow-lg" 
+  style="background: url(<%= asset_path 'cv-hero-image.jpg', alt:'hero image' %>); background-repeat: no-repeat; background-size: cover;">
   <div class="container pt-4 pb-4 w-75">
     <div class="d-flex justify-content-center align-items-center h-100">
-    
-      <div style="color: black;">
-        <h2 class="mb-3 pb-4">
-        Back to School. Back to Business. Back to NORMAL Life.
-        </h2>
-          <%= link_to home_contact_path do %>
-          <button class="btn btn-lg shadow" style="background-color: #3fca86; color: white;">Learn More</button>
-          <% end %>
-          <p class="pt-2"><h2>PROTECT yourself, your family and your clients.</h2></p>
-      </div>
-
+        
+          <div style="color: black;">
+            <h2 class="mb-3 pb-4">
+            Back to School. Back to Business. Back to NORMAL Life.
+            </h2>
+              <%= link_to home_contact_path do %>
+              <button class="btn btn-lg shadow" style="background-color: #3fca86; color: white;">Learn More</button>
+              <% end %>
+              <p class="pt-2"><h2>PROTECT yourself, your family and your clients.</h2></p>
+          </div>
 
     </div>
   </div>
@@ -21,166 +20,159 @@
 
 <!--Content section 1-->
 <div class="container w-75">
-<div class="row align-items-center">
-  <div class="pb-5 pt-5" style="text-align: center;">
-      <p><h1>The Only Technology Available in Products Proven to Reduce over 99.9% of the Virus that Causes COVID-19 
-      on Both Surfaces and In the Air.</h1></p>
-    <p class="fs-6">ActivePure does not replace the need to follow CDC guidance and should be used as a complementary technology.</p>
-  </div>
-
-  <!--FDA modal-->
-  <div class="col" style="text-align: center;">
-    <button type="button" class="btn fda-modal" data-bs-toggle="modal" data-bs-target="#exampleModal">
-    <%= image_tag 'fda-logo-01.png', class:'fda-landing' %>
-    </button>
-  </div>
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-      <%= image_tag 'fda-cert-01.png', class:'fda-cert-modal-body' %>
+    <div class="pb-5 pt-5" style="text-align: center;">
+        <p><h1>The Only Technology Available in Products Proven to Reduce over 99.9% of the Virus that Causes COVID-19 
+        on Both Surfaces and In the Air.</h1></p>
+      <p class="fs-6">ActivePure does not replace the need to follow CDC guidance and should be used as a complementary technology.</p>
+    </div>
+  <!--row of logos-->
+  <div class="row align-items-center">
+    <div class="col" style="text-align: center;">
+      <button type="button" class="btn fda-modal" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <%= image_tag 'fda-logo-01.png', class:'fda-landing', alt:'fda logo' %>
+      </button>
+    </div>
+    <!--FDA modal start-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+        <%= image_tag 'fda-cert-01.png', class:'fda-cert-modal-body', alt:'fda certification' %>
+        </div>
       </div>
     </div>
-  </div>
+    <!--FDA modal end-->
+    <div class="col" style="text-align: center;">
+      <%= link_to home_technology_path do %>
+        <%= image_tag 'nasa-logo-02.png', class:'nasa-landing', alt:'nasa logo' %>
+      <% end %>
+    </div>
 
-  <div class="col" style="text-align: center;">
-    <%= link_to home_technology_path do %>
-      <%= image_tag 'nasa-logo-02.png', class:'nasa-landing' %>
-    <% end %>
-  </div>
+    <div class="col" style="text-align: center;">
+      <%= link_to home_covid19_path do %>
+        <%= image_tag 'activepure-logo.jpg', class:'active-landing', alt:'activepure technology logo' %>
+      <% end %>
+    </div>
 
-  <div class="col" style="text-align: center;">
-    <%= link_to home_covid19_path do %>
-      <%= image_tag 'activepure-logo.jpg', class:'active-landing' %>
-    <% end %>
+    <div class="col" style="text-align: center;">
+      <%= link_to home_safety_path do %>
+        <%= image_tag 'percent-01.png', class:'percent-landing', alt:'99.9% icon' %>
+      <% end %>
+    </div>
   </div>
-
-  <div class="col" style="text-align: center;">
-    <%= link_to home_safety_path do %>
-      <%= image_tag 'percent-01.png', class:'percent-landing' %>
-    <% end %>
-  </div>
-
+  <!--row of text for logos-->
   <div class="row align-items-center;">
-      <div class="col" style="text-align: center;">
-        <p><h4>An FDA Cleared Device</h4></p>
-      </div>
+    <div class="col" style="text-align: center;">
+      <p><h4>An FDA Cleared Device</h4></p>
+    </div>
 
-      <div class="col" style="text-align: center;">
-        <p><h4>NASA Developed Technology</h4></p>
-      </div>
+    <div class="col" style="text-align: center;">
+      <p><h4>NASA Developed Technology</h4></p>
+    </div>
 
-      <div class="col" style="text-align: center;">
-        <p><h4>Works ACTIVELY In Air and Surfaces</h4></p>
-      </div>
+    <div class="col" style="text-align: center;">
+      <p><h4>Works ACTIVELY In Air and Surfaces</h4></p>
+    </div>
 
-      <div class="col" style="text-align: center;">
-        <p><h4>TESTED and PROVEN</h4></p>
-      </div>
+    <div class="col" style="text-align: center;">
+      <p><h4>TESTED and PROVEN</h4></p>
+    </div>
   </div>
-
-</div>
 </div>
 
+<!--ActivePure Technology paragraph under section1 logos-->
 <div class="container pt-3 pb-5 w-75" style="text-align: center;">
-<div class="row align-items-center">
-  <div class="col" style="text-align: justify;">
-      <p>ActivePure Technology is proven to neutralize pathogens, including the virus that causes 
-      COVID-19, on surfaces and in the air. ActivePure does not replace the need to follow CDC guidance 
-      and should be used as a complementary technology. Our Medical Guardian is cleared by the FDA as a 
-      Class II Medical Device; and now we are making this same technology available to every business, 
-      hospital, public space, school, and home in America.</p>
+  <div class="col align-items-center" style="text-align: justify;">
+    <p>ActivePure Technology is proven to neutralize pathogens, including the virus that causes 
+    COVID-19, on surfaces and in the air. ActivePure does not replace the need to follow CDC guidance 
+    and should be used as a complementary technology. Our Medical Guardian is cleared by the FDA as a 
+    Class II Medical Device; and now we are making this same technology available to every business, 
+    hospital, public space, school, and home in America.
+    </p>
   </div>
 </div>
-</div>
-</div>
 
-<!--INTRODUCING-->
 
-<div class="container w-75 pt-5 pb-5">
-<div class="row align-items-center" style="text-align: center;">
+<!--Introduction text for product-->
+<div class="container align-items-center w-75 pt-5 pb-5">
+  <div class="row align-items-center" style="text-align: center;">
 
-  <h4>Introducing</h4>
-  <br><h1>The Air & Surface PRO</h1>
-  <br><h5>Powered by ActivePure Technology</h5>
+    <h4>Introducing</h4>
+    <br><h1>The Air & Surface PRO</h1>
+    <br><h5>Powered by ActivePure Technology</h5>
 
-</div>
+  </div>
 </div>
 
 <!--Content section 2-->
-
 <div class="container pt-5 pb-5 w-75">
-<div class="row align-items-center">
+  <div class="row align-items-center">
 
-    <div class="col-sm section-2-p" style="text-align: justify;">
-      <p><h2>Make Every Indoor Space Safer.</h2></p>
-      <p>ActivePure's Proactive Pathogen Defense™ continuously creates oxidizing molecules that significantly 
-      reduces viruses, bacteria, odors, and volatile organic compounds - both on surfaces and in the air. ActivePure 
-      does not replace the need to follow CDC guidance and should be used as a complementary technology.</p>
+      <div class="col-sm section-2-p" style="text-align: justify;">
+        <p><h2>Make Every Indoor Space Safer.</h2></p>
+          <p>ActivePure's Proactive Pathogen Defense™ continuously creates oxidizing molecules that significantly 
+          reduces viruses, bacteria, odors, and volatile organic compounds - both on surfaces and in the air. ActivePure 
+          does not replace the need to follow CDC guidance and should be used as a complementary technology.
+          </p>
 
-      <p>In independent third-party laboratory tests, ActivePure has been proven to reduce up to 99.99% of pathogens 
-      including SARS-CoV-2 (the virus that causes COVID-19), Avian influenza, E.Coli, MRSA, Norovirus, Staph bacteria, 
-      Candida, Swine Flu, Hepatitis, Legionella, and more.</p>
-      <p>
-      <%= link_to home_contact_path do %>
-          <button class="btn btn-lg shadow" style="background-color: #3fca86; color: white;">Learn More</button>
-          <% end %>
-      </p>
-    </div>
+          <p>In independent third-party laboratory tests, ActivePure has been proven to reduce up to 99.99% of pathogens 
+          including SARS-CoV-2 (the virus that causes COVID-19), Avian influenza, E.Coli, MRSA, Norovirus, Staph bacteria, 
+          Candida, Swine Flu, Hepatitis, Legionella, and more.
+          </p>
+          <p>
+          <%= link_to home_contact_path do %>
+              <button class="btn btn-lg shadow" style="background-color: #3fca86; color: white;">Learn More</button>
+              <% end %>
+          </p>
+      </div>
 
-    <div class="col" style="text-align:center;">
-      <%= image_tag 'active-product-5.jpg', class:'landing-product' %>
-    </div>
-  
+      <div class="col" style="text-align:center;">
+        <%= image_tag 'active-product-5.jpg', class:'landing-product' %>
+      </div>
+    
+  </div>
 </div>
-</div>
+
 <!--Content section 3-->
-
-<div>
 <div class="container pt-5 pb-5 w-75">
-<div class="row align-items-center">
+  <div class="row align-items-center">
 
     <div class="col open-business" style="text-align:center;">
-      <%= image_tag 'safetypage-p4.jpg', class:'ct-3-product' %>
+    <%= image_tag 'safetypage-p4.jpg', class:'ct-3-product' %>
     </div>
     <div class="col">
-      <%# <p><h2>Reopening Businesses. Reuniting Community. Protecting Lives.</h2></p> %>
-      <p><h4>PROACTIVE PATHOGEN DEFENSE</h4></p>
-      <p>Unlike passive air filters, purifiers & other systems, ActivePure proactively seeks 
-      out pathogens, continuously protecting our homes, schools, restaurants, factories, arenas, and any indoor space.</p>
+    <p><h4>PROACTIVE PATHOGEN DEFENSE</h4></p>
+      <p style="text-align: justify;">Unlike passive air filters, purifiers & other systems, ActivePure proactively seeks 
+      out pathogens, continuously protecting our homes, schools, restaurants, factories, arenas, and any indoor space.
+      </p>
 
-      <p><h4>HOSPITAL-GRADE TECHNOLOGY, AVAILABLE FOR HOMES</h4></p>
-      <p>Developed to medical grade standards and relied upon in Acute 
+    <p><h4>HOSPITAL-GRADE TECHNOLOGY, AVAILABLE FOR HOMES</h4></p>
+      <p style="text-align: justify;">Developed to medical grade standards and relied upon in Acute 
       Care settings like the Cleveland Clinic, ActivePure is now available for everyone, in every setting.
       </p>
     </div>
-    
-  
-</div>
-</div>
+
+  </div>
 </div>
 
 <!--Content section 4-->
-
 <div style="background-color: #f7f7f7;">
-<div class="container pt-5 pb-5 w-50">
-<div class="row align-items-center">
+  <div class="container pt-5 pb-5 w-50">
+    <div class="row align-items-center">
 
+        <div class='container pb-5' style="text-align:center;">
+          <h2>We Protect All Indoor Spaces. Which Do You Need to Protect Today?</h2>
+        </div>
 
-    <div class='container pb-5' style="text-align:center;">
-      <h2>We Protect All Indoor Spaces. Which Do You Need to Protect Today?</h2>
+        <div class="container pb-5" style="text-align:center;">
+          <h4>Discover how ActivePure can help you live fully with confidence.</h4>
+        </div>
+
+        <div class="container pb-3" style="text-align:center;">
+          <%= link_to home_contact_path do %>
+              <button class="btn btn-lg shadow" style="background-color: #3fca86; color: white;">Learn More</button>
+              <% end %>
+        </div>
+          
     </div>
-
-    <div class="container pb-5" style="text-align:center;">
-      <h4>Discover how ActivePure can help you live fully with confidence.</h4>
-    </div>
-
-    <div class="container pb-3" style="text-align:center;">
-      <%= link_to home_contact_path do %>
-          <button class="btn btn-lg shadow" style="background-color: #3fca86; color: white;">Learn More</button>
-          <% end %>
-    </div>
-    
-  
-</div>
-</div>
+  </div>
 </div>
