@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   get 'home/hiddenstyles'
   get 'home/contact'
   get 'home/technology'
-  get 'home/products'
+  get 'home/productinfo'
   get 'home/covid19'
   get 'home/safety'
   get 'home/testresults'

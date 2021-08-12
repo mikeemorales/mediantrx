@@ -175,6 +175,11 @@
    width: 15vw;
 }
 
+.pinfo-product-1 {
+   height: 50vh;
+   width: 40vw;
+}
+
  /* MEDIA QUERIES */
 
  @media screen and (max-width: 500px) {
@@ -213,6 +218,10 @@
       width: 30vw;
    }
 
+   .pinfo-product-1 {
+      height: 35vh;
+      width: 60vw;
+   }
 
    /* SCIENTIFIC PROOF LOGOS - INSIDE MEDIA QUERIES */
 
@@ -242,6 +251,12 @@
    }
  }
 
+ @media screen and (min-width: 1500px) {
+   .pinfo-product-1 {
+      height: 50vh;
+      width: 35vw;
+   }
+ }
 
  @media screen and (min-width: 1920px) {
    .safety-s2-seal{
@@ -274,6 +289,10 @@
    .ct-3-product {
       height: 40vh;
       width: 40vw;
+   }
+   .pinfo-product-1 {
+      height: 50vh;
+      width: 30vw;
    }
 
    /*landing page - section one with four logos "fda, nasa, activepure, and 99percentage*/

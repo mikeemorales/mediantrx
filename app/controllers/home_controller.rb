@@ -17,7 +17,7 @@ class HomeController < ApplicationController
   def technology
   end
 
-  def products
+  def productinfo
   end
 
   def covid19
