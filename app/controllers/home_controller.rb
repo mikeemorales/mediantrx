@@ -35,4 +35,10 @@ class HomeController < ApplicationController
   def discountprogram
   end
 
+  def howitworks
+  end
+
+  def news
+  end
+
 end

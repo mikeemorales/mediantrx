@@ -11,5 +11,7 @@ Rails.application.routes.draw do
   get 'home/testresults'
   get 'home/proof'
   get 'home/discountprogram'
+  get 'home/howitworks'
+  get 'home/news'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
