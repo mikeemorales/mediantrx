@@ -13,5 +13,6 @@ Rails.application.routes.draw do
   get 'home/discountprogram'
   get 'home/howitworks'
   get 'home/news'
+  get 'home/productregistration'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

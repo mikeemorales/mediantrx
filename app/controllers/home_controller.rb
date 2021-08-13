@@ -41,4 +41,7 @@ class HomeController < ApplicationController
   def news
   end
 
+  def productregistration
+  end
+
 end
