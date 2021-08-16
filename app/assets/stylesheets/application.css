@@ -99,8 +99,8 @@
 }
 
 .fda-cert-modal-body {
-   height: 100%;
-   width: 100%;
+   height: 150;
+   width: 150%;
 }
 
 .ct-1-approved-icon {
@@ -110,7 +110,7 @@
 
 .ct-3-product {
    height: 25vh;
-   width: 40vw;
+   width: 35vw;
 }
 
 
@@ -148,6 +148,11 @@
    width: 35vw;
 }
 
+.dbirx-blog-image-01 {
+   height: 40vh;
+   width: 50vw;
+}
+
 /* SCIENTIFIC PROOF LOGOS */
 
 .sp-a-logo {
@@ -183,6 +188,9 @@
  /* MEDIA QUERIES */
 
  @media screen and (max-width: 500px) {
+    .hero-text-mobile {
+       color: white;
+    }
     .open-business {
        display: none;
     }
