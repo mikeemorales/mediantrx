@@ -38,11 +38,6 @@
    background-color: white;
 }
 
-.hero-image-index {
-   background-repeat: no-repeat;
-   background-size: cover;
-}
-
 .product-dimension {
    height: 30vh;
    width: 30vw;
@@ -113,6 +108,9 @@
    width: 35vw;
 }
 
+.image-hero-cover {
+   width: 100%;
+}
 
 /* SAFETY PAGE */
 .safety-s2-seal{

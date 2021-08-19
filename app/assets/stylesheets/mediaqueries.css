@@ -1,6 +1,16 @@
 @media screen and (max-width: 500px) {
     .hero-text-mobile {
        color: white;
+       text-align: center;
+    }
+    .hero-space {
+      display: none;
+    }
+    .hero-image-cover {
+      background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5));
+
     }
     .open-business {
        display: none;
@@ -101,10 +111,21 @@
     }
  }
 
+ @media screen and (min-width:1100px) and (max-width: 1499px) {
+    .percent-landing {
+       height: 10vh;
+       width: 8vw;
+    }
+ }
+
  @media screen and (min-width: 1500px) {
    .pinfo-product-1 {
       height: 50vh;
       width: 35vw;
+   }
+   .percent-landing {
+      height: 10vh;
+      width: 7vw;
    }
  }
 
@@ -157,8 +178,8 @@
    }
    
    .percent-landing {
-      height: 10vh;
-      width: 8vw;
+      height: 8vh;
+      width: 6vw;
    }
    
    .active-landing {
