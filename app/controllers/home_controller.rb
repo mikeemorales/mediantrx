@@ -43,5 +43,4 @@ class HomeController < ApplicationController
 
   def productregistration
   end
-
 end
