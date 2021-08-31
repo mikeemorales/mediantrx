@@ -16,4 +16,5 @@ Rails.application.routes.draw do
   get 'home/productregistration'
 
   get 'blog/dbirx'
+  get 'blog/protectschool'
 end
