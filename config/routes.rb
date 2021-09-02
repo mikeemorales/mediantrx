@@ -19,4 +19,6 @@ Rails.application.routes.draw do
 
   get 'blog/dbirx'
   get 'blog/protectschool'
+
+  get 'productdb/dbindex'
 end

@@ -1,0 +1,2 @@
+module ProductdbHelper
+end
