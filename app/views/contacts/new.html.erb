@@ -1,0 +1,43 @@
+<div class="container-fluid align-items-center pb-5 pt-5" style="background: url(<%= asset_path 'head-bg-01.png' %>); text-align: center; color: black;">
+    <h1>Questions about ActivePure?</h1>
+    <p><h4>
+        We are here to help! Please fill out the form below and we will get back to 
+        you as soon as possible. Thank you!
+    </h4></p>
+</div>
+
+<div class="container mx-auto pb-5">
+    <div class="row w-50 pt-5 mx-auto">
+  <%= form_for @contact do |f| %>
+    <div class="col">
+      <%= f.label :name %></br>
+      <%= f.text_field  :name, required: true, class: "contact-form-text-area form-control" %></br>
+
+      <%= f.label :email %></br>
+      <%= f.text_field :email, required: true, class: "contact-form-text-area form-control" %></br>
+
+      <%= f.label :phone %></br>
+      <%= f.text_field :phone, required: true, class: "contact-form-text-area form-control" %></br>
+
+      <%= f.label :company %></br>
+      <%= f.text_field :company, required: true, class: "contact-form-text-area form-control" %></br>
+
+      <div class="mb-3 mt-3">
+                    <select class="form-select" aria-label="Default select example">
+                    <option selected>What are you inquiring about?</option>
+                    <option value="1">Product Purchase</option>
+                    <option value="2">Business Associate</option>
+                    <option value="3">General Inquiry</option>
+                    </select>
+                </div>
+
+      <div class= "d-none">
+        <%= f.label :nickname %>
+        <%= f.text_field :nickname, :hint => 'Leave this field blank!' %>
+      </div>
+
+      <%= f.submit 'Send Message', class: 'btn btn-primary' %>
+    </div>
+  <% end %>
+</div>
+</div>

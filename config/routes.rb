@@ -21,4 +21,7 @@ Rails.application.routes.draw do
   get 'blog/protectschool'
 
   get 'productdb/dbindex'
+
+  get 'contacts/new'
+  resources :contacts, only: [:new, :create]
 end

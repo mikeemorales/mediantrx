@@ -25,6 +25,14 @@
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
     <%= render 'home/header' %>
+
+    <div class="container">
+    <br>
+      <% flash.each do |key, message| %>
+      <p class="alert alert-<%= key %>"><%= message %></p>
+      <% end %>
+    </div>
+    
     <%= yield %>
     <%# <%= render 'home/topalert' %>
     <%= render 'home/footer' %>
